@@ -1,0 +1,135 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+
+p{
+    margin: 0;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    font-family: 黑体, 微软雅黑, serif;
+    height: 100vh;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    height: 14vw;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.header .left{
+    display: flex;
+    align-items: center;
+    margin: 4vw;
+}
+
+.header .left span{
+    margin-right: 6vw;
+}
+
+.header .left .selected{
+    font-size: 5vw;
+    font-weight: 600;
+}
+
+.header .left .unselected{
+    font-size: 4vw;
+    color: #95919b;
+}
+
+.header .right{
+    font-family: serif;
+    margin: 4vw;
+    font-size: 10vw;
+    font-weight: 200;
+}
+
+.title{
+    display: flex;
+    padding: 14vw 3vw 4vw 3vw;
+    font-size: 3.6vw;
+    color: #848691;
+}
+.title .selection{
+    margin-right: 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title .selection .underline{
+    margin-top: 2vw;
+    height: 1vw;
+    width: 4vw;
+    display: block;
+    border-radius: 0.5vw;
+    background-color: #0ca0f0;
+}
+
+.file{
+    margin: 64vw 4vw 20vw 4vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #848c93;
+    font-size: 3.6vw;
+}
+
+.file img{
+    height: 30vw;
+    width: 30vw;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    height: 15vw;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    font-size: 3vw;
+    font-weight: 500;
+}
+
+.footer-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-items img{
+    margin-top: 1.8vw;
+    margin-bottom: 1.8vw;
+    height: 7vw;
+    width: 7vw;
+    display: block;
+}
+
+.footer-items .selected{
+    color: #0ca0f0;
+    font-weight: 600;
+}
+
+.footer-items .user-icon{
+    border-radius: 3.5vw;
+}
