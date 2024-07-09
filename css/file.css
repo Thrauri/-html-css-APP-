@@ -74,6 +74,7 @@ p{
     right: 4vw;
     top: 16vw;
     box-shadow: 0 0 1vw 1vw #f8f9fd;
+    background-color: #fefefe;
     display: none;
 }
 
