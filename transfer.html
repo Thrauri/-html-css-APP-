@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>传输</title>
+    <link rel="stylesheet" href="css/transfer.css">
+    <link rel="stylesheet" href="iconfont/iconfont.css">
+    <script src="js/transfer.js"></script>
+</head>
+<body>
+    <div class="main-container">
+        <header class="header">
+            <div class="left" onclick="location.href='index.html'">
+                <span class="left-arrow">&lt;</span>
+                <span class="title" id="title-1">下载中…</span>
+                <span class="title" id="title-2" style="display: none">传输列表</span>
+            </div>
+            <div class="right">
+                <button>SVIP加速</button>
+                <img src="img/86.jpg">
+                <img src="img/87.jpg">
+            </div>
+        </header>
+        <main class="main">
+            <div class="banner">
+                <img src="img/34.jpg">
+                <span>百度网盘保障你的传输安全 &gt;</span>
+            </div>
+            <div class="buttons-container">
+                <div class="buttons">
+                    <button id="button-1" style="background-color: white; color: black; font-size: 3.6vw">下载列表</button>
+                    <button id="button-2">上传列表</button>
+                    <button id="button-3">离线下载</button>
+                </div>
+            </div>
+            <div class="box-1" id="box-1">
+                <div class="title">
+                    <div class="left"><span>下载中(1)</span></div>
+                    <div class="right">
+                        <span class="black">同时下载：</span>
+                        <span class="blue">1个</span>
+                        <i class="i material-symbols:keyboard-arrow-down-rounded"></i>
+                        <span class="blue">全部暂停</span>
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="item">
+                        <img src="img/36.jpg">
+                        <div class="progress">
+                            <p class="name">channel.zip</p>
+                            <progress value="36" max="100"></progress>
+                            <div class="speed">
+                                <span class="left">24.3MB/67.5MB</span>
+                                <span class="right">63KB/s</span>
+                            </div>
+                        </div>
+                        <div class="pause">
+                            <i class="i material-symbols:pause-rounded"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box-2" id="box-2" style="display: none">
+                <div class="title">
+                    <div class="left"><span>已上传(1)</span></div>
+                    <div class="right">
+                        <span class="blue">清空</span>
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="item">
+                        <img src="img/user.jpg">
+                        <div class="file-info">
+                            <p class="name">user.jpg</p>
+                            <p class="info">55.2KB 上传到：百度网盘 &gt;</p>
+                        </div>
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="box-3" id="box-3" style="display: none">
+                <img src="img/88.jpg">
+                <p>暂无下载记录</p>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer-1" id="footer-1">
+                <span>手机剩余空间：56.3GB/225.1GB</span>
+                <i class="i material-symbols:info-outline-rounded"></i>
+            </div>
+            <div class="footer-2" id="footer-2" style="display: none">
+                <span style="color: #c2c5ce">网盘剩余空间：3.8GB/5.0GB</span>
+                <span style="color: #0694e0; margin: 0">查看详情 &gt;</span>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

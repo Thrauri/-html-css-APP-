@@ -7,17 +7,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>首页</title>
     <link rel="stylesheet" href="css/index.css">
-
+    <script src="js/index.js"></script>
 </head>
 <body>
     <div class="main-container">
         <header class="header">
-            <div class="search">
+            <div class="search" onclick="location.href='search.html'">
                 <img src="img/1.jpg"/>
                 <span>签到</span>
             </div>
             <div class="header-items">
-                <img src="img/2.jpg"/>
+                <img src="img/2.jpg" onclick="location.href='transfer.html'">
                 <img src="img/3.jpg"/>
             </div>
         </header>
@@ -90,9 +90,10 @@
             <div class="recent">
                 <div class="title">
                     <span>最近</span>
-                    <img src="img/10.jpg">
+                    <img src="img/10.jpg" id="show-button">
+                    <img src="img/11.jpg" id="hide-button" style="display: none">
                 </div>
-                <div class="recent-box">
+                <div class="recent-box" id="recent-box-1">
                     <div class="options">
                         <span class="option-select">全部<span class="underline"></span></span>
                         <span class="option">转存</span>
@@ -118,6 +119,10 @@
                     <div class="bottom-text">
                         <span>查看全部 &gt;</span>
                     </div>
+                </div>
+                <div class="recent-box-hide" id="recent-box-2" style="display: none">
+                    <img src="img/12.jpg">
+                    <span>最近使用过的内容已隐藏</span>
                 </div>
             </div>
             <div class="memory">
@@ -198,19 +203,19 @@
                 <img src="img/1-2.jpg"/>
                 <span class="selected">首页</span>
             </div>
-            <div class="footer-items">
+            <div class="footer-items" onclick="location.href='file.html'">
                 <img src="img/2-1.jpg"/>
                 <span>文件</span>
             </div>
-            <div class="footer-items">
+            <div class="footer-items" onclick="location.href='share.html'">
                 <img src="img/3-1.jpg"/>
                 <span>共享</span>
             </div>
-            <div class="footer-items">
+            <div class="footer-items" onclick="location.href='find.html'">
                 <img src="img/4-1.jpg"/>
                 <span>发现</span>
             </div>
-            <div class="footer-items">
+            <div class="footer-items" onclick="location.href='myself.html'">
                 <img class="user-icon" src="img/user.jpg"/>
                 <span>我的</span>
             </div>

@@ -28,7 +28,15 @@ content: "\e001";
 content: "\e002";
 }
 
-.i.material-symbols\:keyboard-arrow-down-rounded:before {
+.i.material-symbols\:info-outline-rounded:before {
 content: "\e003";
+}
+
+.i.material-symbols\:keyboard-arrow-down-rounded:before {
+content: "\e004";
+}
+
+.i.material-symbols\:pause-rounded:before {
+content: "\e005";
 }
 

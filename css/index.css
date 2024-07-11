@@ -236,6 +236,27 @@ p{
     margin-right: 4vw;
 }
 
+.recent-box-hide{
+    margin-top: 2vw;
+    background-color: white;
+    border-radius: 3vw;
+    height: 32vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recent-box-hide img{
+    width: 7vw;
+    height: 7vw;
+    margin-right: 1vw;
+}
+
+.recent-box-hide span{
+    font-size: 4vw;
+    color: #878a8f;
+}
+
 .recent-list {
     padding: 0;
 }
